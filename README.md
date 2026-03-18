@@ -1,9 +1,19 @@
-# Split Keyboard
 
-A split keyboard with a nordic layout made for HackClub's Fallout hardware event. 
+# Nordic split
 
-The keyboard uses Kailh choc low-profile switches and nice!nano controllers. 
+A split low-profile wirelles keyboard with a nordic ISO layout. Some inspiration was taken from the cladera keyboard. The keyboard uses a nice!nano as the controller and a custom pcb with choc v2 hotswap sockets. 
 
-### Inspiration
+The project was made as a part of HackClub's Fallout event.
 
-Christian Selig's Caldera split keyboard.
+
+## Demo
+
+A video of the keyboard in use.
+
+
+## Acknowledgements
+
+ - [HackClub Fallout](https://fallout.hackclub.com/)
+ - [Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard)
+ 
+
