@@ -15,7 +15,7 @@ The project was made as a part of HackClub's Fallout event.
 
 The project was made because I wanted a split keyboard but needed a nordic layout for my day to day. So the nordic split was born. It has most of the features I wanted. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connection. 
 
-The keyboard could also be used by people with non nordic layouts and the extra row of keys on the right side could be short cut keys. 
+The keyboard could also be used by people with non-nordic layouts and the extra row of keys on the right side could be shortcut or macro keys. Of course the pcb could be edited and these keys removed
 ## Photos!
 
 ![Left Side PCB](./Media/LeftSidePcbScreenshot.png)
