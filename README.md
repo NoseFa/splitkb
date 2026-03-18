@@ -32,5 +32,5 @@ SOON
 
 ## Acknowledgements
 
- -[HackClub Fallout](https://fallout.hackclub.com/)
- -[Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard)
+* [HackClub Fallout](https://fallout.hackclub.com/)
+* [Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard)
