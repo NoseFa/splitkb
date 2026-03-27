@@ -10,6 +10,7 @@ The project was made as a part of HackClub's Fallout event.
 * Open-source
 * Wireless
 * Nordic layout
+* total of 74 keys
 
 ## Why it exists?
 
