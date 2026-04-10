@@ -31,7 +31,8 @@ Screenshot of the right side PCB
 
 ![Zine Page](./Media/ZinePage.png)
 
-Zine page is also available as a [PDF](./ZinePage/ZinePage.pdf)
+Zine page is also available as a [PDF](./ZinePage/ZinePage.pdf).
+Background picture was taken by my dad when we went up north.
 
 ## Demo
 
