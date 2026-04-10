@@ -25,6 +25,12 @@ Screenshot of the left side PCB
 ![Right Side PCB](./Media/RightSidePcbScreenshot.png)
 Screenshot of the right side PCB
 
+## Zine Page
+
+![Zine Page](./Media/ZinePage.png)
+
+Zine page is also available as a [PDF](./ZinePage/ZinePage.pdf)
+
 ## Demo
 
 A video of the keyboard in use.
