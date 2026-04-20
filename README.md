@@ -30,7 +30,21 @@ First you need to order the PCBs from a PCB manufacturer. (Technically nothing p
 
 ### The case
 
-For the case you can either print it or use a 3D printing service. I have a 3D printer so I printed one myself but manufacturers like [JLC3DP](https://jlc3dp.com/) can print the case for you. Remeber that the size are not just mirrored and have different case files. All 3d files are in the [Fusion Files folder](./FusionFiles/). 
+For the case you can either print it or use a 3D printing service. I have a 3D printer so I printed one myself but manufacturers like [JLC3DP](https://jlc3dp.com/) can print the case for you. Remeber that the size are not just mirrored and have different case files. All 3d files are in the [Fusion Files folder](./FusionFiles/). The bottom plate is printed seperately and the top plate and sides are all on assembly that can be printed in place. Depending on the print quality you may want to wet sand the parts and add a few coats of paint. This isn't strictly necessary but it can improve the feel and finish of the part and can make them look better. 
+
+After printing and finishing you can use the press with inserts for the screws. You should attach them to the case assembly (there are pre made holes for them). After this you can move onto preparing the PCB for assembly.
+
+### Working on the PCB. 
+
+First you should attach the diodes and hotswap sockets (These might be preinstalled if you used an asssembly service when ordeing the parts from the manufacturer). Then you should install the dev board (ProMicro NRF52840 if you followed the BOM). You should have pre-installed pins on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software (Available here!). You can use metallic tweezers to connect test each socket without installing switches. (Just bridge the two points). 
+
+After you have tested each key and checked that it works you can move onto the next step. If it doesn't work check your soldering of the dev board and check the PCB. When ordering from companies like JLCPCB you usually have to get a min of 5 boards. You can try one of the other boards incase one of the PCBs had a manufacturing mistake etc. 
+
+If everything works you should move onto installing the battery leads. You can solder the battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the PCB into the case and attach the battery to the bottom plate. (Having long enough battery cables might be a help here.) Then you can screw the bottom plate in and move onto installing the switches. 
+
+### The switches
+
+You should be able to just push in every switch. The hotswap sockets make this possible and there is no need to solder anything on the switches themselves. After the switches you should once again plug in both boards and check the firmware. You should sync the boards together and test the wireless functionality. If everything works as intended you can install the keycaps and then your done.
 
 ### Build Guide Summary
 
@@ -43,6 +57,12 @@ For the case you can either print it or use a 3D printing service. I have a 3D p
 7. Install the choc switches to the sockets and keycaps.
 8. Flash software (Check software section)
 9. Enjoy!
+
+## Software
+
+The keyboard is running ZMK which is the standard software used for wireless custom keyboards. Here is the [official docs for ZMK](https://zmk.dev/docs/features/split-keyboards). You might want to read this if you want to know more. I will still provide some instructions and info here as well as my own config file but if you need something else you should check the ZMK page.
+
+The main points you might want to know are that one of the sides will be the host and it will drain more battery then the other side. This is because the "host" side will be communicating between the computer and the other side and the non host side will be just communicating with the host side. With the size of the batteries I used this wont be an issue but this technically means that you could use a bit of a smaller battery on one side and have the same battery life as the host side.
 
 ## PCB
 
