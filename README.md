@@ -16,7 +16,7 @@ The project was made as a part of Hack Club's [Fallout](https://fallout.hackclub
 
 ## Why it exists?
 
-The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the caldera keyboard. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer. 
+The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the caldera keyboard. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer.
 
 Even though it was designed as nordic layout first. The keyboard could also be used by people with non-nordic layouts and you could use the extra row of keys on the right side as shortcut or macro keys. Of course also the pcb could be edited and these keys removed if you don't want them.
 
@@ -26,21 +26,21 @@ Even though it was designed as nordic layout first. The keyboard could also be u
 
 First you need to order the PCBs from a PCB manufacturer. (Technically nothing prevents you from hand wiring this keyboard but it would require some redesigning of the case and is outside the scope of my project.) I ordered the PCB with the diodes installed. They are pretty annoying to hand solder because of their small size and are not that much more expensive to get preassembled from manufacturers like [JLCPCB](https://jlcpcb.com/). When buying the microcontroller you should probably not buy a nice!nano and instead just a NRF52840 based dev board. This is the one I bought [ProMicro NRF52840](https://www.aliexpress.com/item/1005007205026373.html?spm=a2g0o.productlist.main.8.5285a54cPOmIpa&aem_p4p_detail=202603200108531573820844269200000457052&algo_pvid=ebbbcca8-17d4-4ca8-b59a-75b1f3198b0b&algo_exp_id=ebbbcca8-17d4-4ca8-b59a-75b1f3198b0b-7&pdp_ext_f=%7B%22order%22%3A%22771%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%214.49%213.16%21%21%2134.88%2124.54%21%40211b813f17739941330401522ee8fd%2112000039797470328%21sea%21FI%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Ab451bb2c%3Bm03_new_user%3A-29895%3BpisId%3A5000000197850273&curPageLogUid=OxA2oroU7gov&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007205026373%7C_p_origin_prod%3A&search_p4p_id=202603200108531573820844269200000457052_2) from aliexpress and it's pretty much a drop in replacement for the nice!nano.
 
- For the other components you can look at [Bill of Materials](./BOM.csv). 
+ For the other components you can look at [Bill of Materials](./BOM.csv).
 
 ### The case
 
-For the case you can either print it or use a 3D printing service. I have a 3D printer so I printed one myself but manufacturers like [JLC3DP](https://jlc3dp.com/) can print the case for you. Remeber that the size are not just mirrored and have different case files. All 3d files are in the [Fusion Files folder](./FusionFiles/). The bottom plate is printed seperately and the top plate and sides are all on assembly that can be printed in place. Depending on the print quality you may want to wet sand the parts and add a few coats of paint. This isn't strictly necessary but it can improve the feel and finish of the part and can make them look better. 
+For the case you can either print it or use a 3D printing service. I have a 3D printer so I printed one myself but manufacturers like [JLC3DP](https://jlc3dp.com/) can print the case for you. Remember that the size are not just mirrored and have different case files. All 3d files are in the [Fusion Files folder](./FusionFiles/). The top plate is printed seperately and the bottom plate and sides are all on assembly that can be printed in place. Depending on the print quality you may want to wet sand the parts and add a few coats of paint. This isn't strictly necessary but it can improve the feel and finish of the part and can make them look better.
 
 After printing and finishing you can use the press with inserts for the screws. You should attach them to the case assembly (there are pre made holes for them). After this you can move onto preparing the PCB for assembly.
 
-### Working on the PCB. 
+### Working on the PCB
 
-First you should attach the diodes and hotswap sockets (These might be preinstalled if you used an asssembly service when ordeing the parts from the manufacturer). Then you should install the dev board (ProMicro NRF52840 if you followed the BOM). You should have pre-installed pins on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software (Available here!). You can use metallic tweezers to connect test each socket without installing switches. (Just bridge the two points). 
+First you should attach the diodes and hotswap sockets (These might be preinstalled if you used an asssembly service when ordeing the parts from the manufacturer). Then you should install the dev board (ProMicro NRF52840 if you followed the BOM). You should have pre-installed pins on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software (Available here!). You can use metallic tweezers or another way to make a connection and test each socket without installing switches (Just bridge the two points / holes).
 
-After you have tested each key and checked that it works you can move onto the next step. If it doesn't work check your soldering of the dev board and check the PCB. When ordering from companies like JLCPCB you usually have to get a min of 5 boards. You can try one of the other boards incase one of the PCBs had a manufacturing mistake etc. 
+After you have tested each key and checked that it works you can move onto the next step. If it doesn't work check your soldering of the dev board and check the PCB. When ordering from companies like JLCPCB you usually have to get a min of 5 boards. You can try one of the other boards incase one of the PCBs had a manufacturing mistake etc.
 
-If everything works you should move onto installing the battery leads. You can solder the battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the PCB into the case and attach the battery to the bottom plate. (Having long enough battery cables might be a help here.) Then you can screw the bottom plate in and move onto installing the switches. 
+If everything works you should move onto installing the battery leads. You can solder the battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the PCB into the case and attach the battery to the bottom of the case. (Having long enough battery cables might be a help here.) Then you can screw the bottom plate in and move onto installing the switches.
 
 ### The switches
 
@@ -68,7 +68,6 @@ The main points you might want to know are that one of the sides will be the hos
 
 ![Left Side PCB](./Media/LeftSidePcbScreenshot.png)
 Here is a picture of the left side PCB. You can see the switches, traces and a spot for the microcontroller.
-
 
 ![Right Side PCB](./Media/RightSidePcbScreenshot.png)
 Here is a picture of the left side PCB. You can see that it is different from the left side instead of just being a mirrored version like some boards are. 
@@ -101,6 +100,8 @@ SOON
 * Fusion (Case design)
 * Excalidraw (Notetaking)
 
-### Assembly 
+### Assembly
 
 * Soldering iron
+* Screwdriver for the M2 screws
+* Computer to flash the software.
