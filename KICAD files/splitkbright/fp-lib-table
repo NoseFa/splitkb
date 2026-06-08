@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Switch_Keyboard_Hotswap_Kailh")(type "KiCad")(uri "${KICAD9_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Hotswap_Kailh.pretty")(options "")(descr ""))
   (lib (name "nice-nano-kicad-master")(type "KiCad")(uri "C:/Users/oskar/Downloads/nice-nano-kicad-master/nice-nano-kicad-master")(options "")(descr ""))
+  (lib (name "Panelization.pretty-master")(type "KiCad")(uri "C:/Users/oskar/Desktop/Folder/Projects/KiCad/HackPad/Panelization.pretty-master")(options "")(descr ""))
 )

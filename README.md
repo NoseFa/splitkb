@@ -16,7 +16,7 @@ The project was made as a part of Hack Club's [Fallout](https://fallout.hackclub
 
 ## Why it exists?
 
-The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the caldera keyboard. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer. 
+The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the caldera keyboard. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer.
 
 Even though it was designed as nordic layout first. The keyboard could also be used by people with non-nordic layouts and you could use the extra row of keys on the right side as shortcut or macro keys. Of course also the pcb could be edited and these keys removed if you don't want them.
 
@@ -36,7 +36,7 @@ Depending on the print quality you may want to wet sand the parts and add a few 
 
 After printing and finishing you can press in the heated inserts to the main shell of both sides. You should attach them to the case assembly (there are pre made holes for them). After this you can move onto preparing the PCB for assembly.
 
-### Working on the PCB. 
+### Working on the PCB
 
 First you should attach the diodes and hotswap sockets (These might be preinstalled if you used an asssembly service when ordeing the parts from the manufacturer). Then you should install the dev board (ProMicro NRF52840 if you followed the BOM). You should have pre-installed pins or pins installed by you on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software. You can find it in the software folder. You can use metallic tweezers to bridge a connection and test each socket without installing switches (Just bridge the two points). 
 
@@ -71,7 +71,6 @@ The main points you might want to know are that one of the sides will be the hos
 ![Left Side PCB](./Media/LeftSidePcbScreenshot.png)
 Here is a picture of the left side PCB. You can see the switches, traces and a spot for the microcontroller.
 
-
 ![Right Side PCB](./Media/RightSidePcbScreenshot.png)
 Here is a picture of the left side PCB. You can see that it is different from the left side instead of just being a mirrored version like some boards are. 
 
@@ -103,6 +102,8 @@ SOON
 * Fusion (Case design)
 * Excalidraw (Notetaking)
 
-### Assembly 
+### Assembly
 
 * Soldering iron
+* Screwdriver for the M2 screws
+* Computer to flash the software.
