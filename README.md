@@ -1,10 +1,11 @@
-# Nordic split
-
 ![3D render](./Media/LeftSideRenderSnowEnv.png)
 
-A split low-profile wireless keyboard with a nordic ISO layout. I used the [Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard) as inspiration and it clearly shows in the design. Still  The keyboard uses a nice!nano like microcontroller based on the NRF52840, ZMK as the firmware and a custom pcb with Choc V1 hotswap sockets.
+# Nordic split
 
-The project was made as a part of Hack Club's [Fallout](https://fallout.hackclub.com/) event.
+A split low-profile wireless keyboard with a nordic ISO layout. I used the [Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard) as inspiration and it clearly shows in the design. Still the keyboard uses a nice!nano like microcontroller based on the NRF52840, ZMK as the firmware and a custom pcb with Choc V1 hotswap sockets. The keyboard also has an ortholinear layout which can be more ergonomic for some users.
+
+The project was made adn designed as a part of Hack Club's [Fallout](https://fallout.hackclub.com/) event where people make hardware projects and get a chance to go to Shenzhen, China.
+
 
 ## Highlights
 
@@ -16,7 +17,7 @@ The project was made as a part of Hack Club's [Fallout](https://fallout.hackclub
 
 ## Why it exists?
 
-The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the caldera keyboard. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer.
+The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the caldera keyboard by Christian Selig. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer or laptop.
 
 Even though it was designed as nordic layout first. The keyboard could also be used by people with non-nordic layouts and you could use the extra row of keys on the right side as shortcut or macro keys. Of course also the pcb could be edited and these keys removed if you don't want them.
 
@@ -28,7 +29,7 @@ First you need to order the PCBs from a PCB manufacturer. (Technically nothing p
 
 For the case you can either 3D print it your self or you can use a manufacturer like [JLC3DP](https://jlc3dp.com/) to print the case. Using a printing service isn't listed in the BOM because I have a 3D printer that I can use for this. Remember to order both sides. So in total you should have different 4 parts to print (both sides have a case and bottom plate). You can find the files in the [3D files folder](./3dFiles/). The [Full project folder](./3dFiles/FullProject/) has the full 3D project inc. PCB, switches etc. It's available in .step and .f3d formats. There is also a [Printable folder](./3dFiles/Printable/). It has ready to print files in .step format. All parts can be printed in place without supports. 
 
-For the other components like switches et. you can look at [Bill of Materials](./BOM.csv). The switches are the ones I used but you can use any choc v1 low-profile switches.
+For the other components like switches etc. you can look at [Bill of Materials](./BOM.csv). The switches are the ones I used but you can use any choc v1 low-profile switches.
 
 ### The case
 
@@ -38,7 +39,7 @@ After printing and finishing you can press in the heated inserts to the main she
 
 ### Working on the PCB
 
-First you should attach the diodes and hotswap sockets (These might be preinstalled if you used an asssembly service when ordeing the parts from the manufacturer). Then you should install the dev board (ProMicro NRF52840 if you followed the BOM). You should have pre-installed pins or pins installed by you on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software. You can find it in the software folder. You can use metallic tweezers to bridge a connection and test each socket without installing switches (Just bridge the two points). 
+First you should attach the diodes and hotswap sockets (These might be preinstalled if you used an asssembly service when ordeing the parts from the manufacturer). Then you should install the dev board (ProMicro NRF52840 if you followed the BOM). You should have pre-installed pins or pins installed by you on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software (See [software flashing section](./Software/software.md) if you need help). You can use metallic tweezers to bridge a connection and test each socket without installing switches (Just bridge the two points). 
 
 After you have tested each key and checked that it works you can move onto the next step. If it doesn't work check your soldering of the dev board and check the PCB. When ordering from companies like JLCPCB you usually have to get a min of 5 boards so you have extras just incase. You can try one of the other boards incase one of the PCBs had a manufacturing mistake etc. 
 
@@ -62,9 +63,7 @@ You should be able to just push in every switch. The hotswap sockets make this p
 
 ## Software
 
-The keyboard is running ZMK which is the standard software used for wireless custom keyboards. Here is the [official docs for ZMK](https://zmk.dev/docs/features/split-keyboards). You might want to read this if you want to know more. I will still provide some instructions and info here as well as my own config file but if you need something else you should check the ZMK page.
-
-The main points you might want to know are that one of the sides will be the host and it will drain more battery then the other side. This is because the "host" side will be communicating between the computer and the other side and the non host side will be just communicating with the host side. With the size of the batteries I used this wont be an issue but this technically means that you could use a bit of a smaller battery on one side and have the same battery life as the host side. The software is configured using a different config files that have the keymap and gpio layout etc. Then ZMK has a github action that can create the .bin file. The files are available in the software folder. If you just want the .bin files needed to flash the device they are available here.
+See [Software.md](./Software/software.md) for more info about software and installation instructions.
 
 ## PCB
 
@@ -91,8 +90,8 @@ SOON
 
 ## Acknowledgements
 
-* [HackClub Fallout](https://fallout.hackclub.com/)
-* [Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard)
+* Thanks to [Hack Club](https://hackclub.com/) [Fallout](https://fallout.hackclub.com/). If you want to view the project I made for Fallout including journals you can view it [on the event page](https://fallout.hackclub.com/projects/156).
+* [Caldera Keyboard by Christian Selig](https://github.com/christianselig/caldera-keyboard) was used as inspiration and [his video](https://www.youtube.com/watch?v=7UXsD7nSfDY) was a great watch.
 
 ## Tools used
 
@@ -107,3 +106,4 @@ SOON
 * Soldering iron
 * Screwdriver for the M2 screws
 * Computer to flash the software.
+* USB-C cable
