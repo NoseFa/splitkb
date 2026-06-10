@@ -63,7 +63,7 @@ You should be able to just push in every switch. The hotswap sockets make this p
 
 ## Software
 
-See [Software.md](./Software/software.md) for more info about software and installation instructions.
+See [Software.md](./Software/software.md) for more info about software and software installation instructions.
 
 ## PCB
 
