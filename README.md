@@ -70,9 +70,9 @@ The main points you might want to know are that one of the sides will be the hos
 Here is a picture of the left side PCB. You can see the switches, traces and a spot for the microcontroller.
 
 ![Right Side PCB](./Media/RightSidePcbScreenshot.png)
-Here is a picture of the left side PCB. You can see that it is different from the left side instead of just being a mirrored version like some boards are. 
+Here is a picture of the left side PCB. You can see that it is different from the left side instead of just being a mirrored version like some boards are.
 
-Unlike some other split keyboards the Nordic Splits halves aren't mirrored but instead the right side has an extra row of keys primarly needed to support the Nordic layout. 
+Unlike some other split keyboards the Nordic Splits halves aren't mirrored but instead the right side has an extra row of keys primarly needed to support the Nordic layout.
 
 ## Zine Page
 
