@@ -511,7 +511,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "left.kicad_sch"
 			(at 171.45 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
