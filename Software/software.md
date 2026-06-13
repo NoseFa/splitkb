@@ -12,7 +12,7 @@ For installing you can grab the .uf2 files from the software folder. You can als
 
 ## Keymaps
 
-Here are the two layers included in the firmware files. There are also two empty layers that you can use using ZMK studio to configure anything you want without having to run the build action again. The icons in the previews are from Iconify.
+Here are the two layers included in the firmware files. There are also two empty layers that you can use using ZMK studio to configure anything you want without having to run the build action again. The icons in the previews are from Iconify. These keymaps are made with the nordic layout in mind and they are the first keymap I have created so they can be a little bit weird.
 
 ![Default QWERTY layer](../Media/DefaultLayer.png)
 
