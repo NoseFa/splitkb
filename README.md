@@ -8,7 +8,7 @@ The project was made and designed as a part of Hack Club's [Fallout](https://fal
 
 ## Highlights
 
-* **Hotswapping**
+* Hotswapping
 * Open-source
 * ZMK firmware (ZMK studio support)
 * Wireless

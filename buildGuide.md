@@ -24,13 +24,19 @@ After printing the top plate and main body and maybe finishing the part. Then yo
 
 Here is a picture of the left side where I highlighted the heated insert spots. The right side is pretty much the same.
 
+You should also install the non-slip pads to the bottom of the case if you bought them.
+
+![Non slip pad spots](./Media/NonSlipPads.png)
+
+Here is a picture with the spots for the pads highlighted.
+
 ## Working on the PCB
 
 First you should seperate the sides from each other. They are seperated by mouse bites so you should be able to just almost like snap them from each other. Then you can attach the diodes and hotswap sockets (These might be preinstalled if you used an assembly service when ordeing the parts from the manufacturer). The diodes can be annoying to solder so you might want to use solder paste and an oven to make installation easier. Then you should install the dev board (ProMicro NRF52840 if you followed the BOM).  You should have pre-installed pins or pins installed by you on the board and you can solder it to the pcb using them. Now I would suggest connecting to a computer and flashing the software (See [software flashing](./Software/software.md) section if you need help). You can use metallic tweezers to bridge a connection and test each socket without installing switches (Just bridge the two points).
 
 After you have tested each key and checked that it works you can move onto the next step. If it doesn't work check your soldering of the dev board and check the PCB. When ordering from companies like JLCPCB you usually have to get a min of 5 boards so you have extras just incase. You can try one of the other boards incase one of the PCBs had a manufacturing mistake etc.
 
-If everything works you should move onto installing the battery to the PCB. You can solder the battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the PCB into the case and you should place the battery in first (Having long enough battery cables might be a help here.) . If you want to you can use some double sided tape to keep the battery in place. Then you can place the PCB on top of the stand offs and you can move on to installing the top plate and move onto installing the switches. Both sides can be assembled in the same way so you can follow this guide for both.
+If everything works you should move onto installing the battery to the PCB. You can solder the battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the PCB into the case and you should place the battery in first (Having long enough battery leads might be a help here). If you want to you can use some double sided tape to keep the battery in place. Then you can place the battery in the holder made for it in the center of the case. Next you can place the PCB on top of the stand offs and you can move on to installing the top plate and move onto installing the switches. Both sides can be assembled in the same way so you can follow this guide for both.
 
 ## The switches
 
