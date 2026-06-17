@@ -17,3 +17,7 @@ Here are the two layers included in the firmware files. There are also two empty
 ![Default QWERTY layer](../Media/DefaultLayer.png)
 
 ![Function layer](../Media/FnLayer.png)
+
+## ZMK studio
+
+ZMK studio is a tool provided by ZMK and for which I have added support in the firmware provided. You can use the easy to use GUI to change the keymap. The changes can be made even while the board is still connected to your computer and doesn't require reflashing. I have added 2 extra layers for which you can use for what ever you like. These have been left empty for now and should be configured by what you want. If you want to switch from the nordic keymap thats also made easier by ZMK studio and not having to flash the firmware again.
