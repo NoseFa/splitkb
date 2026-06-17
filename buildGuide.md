@@ -36,7 +36,7 @@ First you should seperate the sides from each other. They are seperated by mouse
 
 After you have tested each key and checked that it works you can move onto the next step. If it doesn't work check your soldering of the dev board and check the PCB. When ordering from companies like JLCPCB you usually have to get a min of 5 boards so you have extras just incase. You can try one of the other boards incase one of the PCBs had a manufacturing mistake etc.
 
-If everything works you should move onto installing the battery to the PCB. You can solder the battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the PCB into the case and you should place the battery in first (Having long enough battery leads might be a help here). If you want to you can use some double sided tape to keep the battery in place. Then you can place the battery in the holder made for it in the center of the case. Next you can place the PCB on top of the stand offs and you can move on to installing the top plate and move onto installing the switches. Both sides can be assembled in the same way so you can follow this guide for both.
+If everything works you should move onto installing the battery to the PCB. You can solder the lead of battery to the pads on the PCB check that you attach the positive side to the BAT+ pad and the negative side to the GND pad. After this you can install the battery and PCB into the case and you should place the battery in first (Having long enough battery leads might be a help here). If you want to you can use some double sided tape to hold the battery in its holder. Then you can place the battery in the holder made for it in the center of the case. Next you can place the PCB on top of the stand offs and you can move on to installing the top plate and move onto installing the switches. Both sides can be assembled in the same way so you can follow this guide for both. Remember to connect the battery JST connector and the battery together.
 
 ## The switches
 
@@ -44,4 +44,4 @@ You should be able to just push in every switch. The hotswap sockets make this p
 
 ## Software install
 
-See [Software.md](./Software/software.md) for more info about software and software installation instructions. If you know what you're doing you can find the firmware files in the [Firmware folder](./Software/firmware/).
+See [Software.md](./Software/software.md) for more info about software and software installation instructions. If you know what you're doing you can find the firmware files in the [Firmware folder](./Software/firmware/). If you want to see the config files they are in a different [software repo](https://github.com/NoseFa/nordic-split-zmk).
