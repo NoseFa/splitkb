@@ -19,7 +19,7 @@ The project was made and designed as a part of Hack Club's [Fallout](https://fal
 
 The project was made because I wanted a split keyboard but needed a nordic layout for my day to day stuff (I need the letters Ä, Ö, Å). So the nordic split was born. I took inspiration from the Caldera keyboard by Christian Selig. It's low profile so it can be transported easily around and it's also wireless so no need for annoying dual or split cables for connecting to a computer or laptop.
 
-This is the first keyboard I have designed so the keymap and layout were made with some educated guess work. They might be updated later down the line. I will update this repo with the most recent keymap I use. Even though it was designed as nordic layout first. The keyboard could also be used by people with non-nordic layouts and you could use the extra row of keys on the right side as shortcut or macro keys. Of course also the pcb could be edited and these keys removed if you don't want them. This keyboard has ZMK studio support so you can change the keymap in the [ZMK.studio web app](https://zmk.studio).
+This is the first keyboard I have designed so the keymap and layout were made with some educated guess work. They might be updated later down the line. I will update this repo with the most recent keymap I use. Even though it was designed as nordic layout first. The keyboard could also be used by people with non-nordic layouts and you could use the extra row of keys on the right side as shortcut or macro keys. Of course also the pcb could be edited and these keys removed if you don't want them. This keyboard has ZMK studio support so you can change the keymap in the [ZMK.studio](https://zmk.studio) web app.
 
 ## BOM summary
 
