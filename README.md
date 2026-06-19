@@ -52,7 +52,7 @@ More detailed build guide is available in the [build guide.md file](buildGuide.m
 
 ## Software
 
-See [Software.md](./Software/software.md) for more info about software and software installation instructions. The software source code files are in a different repo ([nordic-split-zmk](https://github.com/NoseFa/nordic-split-zmk))
+See [Software.md](./Software/software.md) for more info about software and software installation instructions. The software source code files are in a different repo ([NoseFa/nordic-split-zmk](https://github.com/NoseFa/nordic-split-zmk))
 
 ## PCB
 

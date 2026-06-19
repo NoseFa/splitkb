@@ -1,7 +1,7 @@
 # Software
 
 > [!WARNING]
-> The software source code files are in a different repo ([nordic-split-zmk](https://github.com/NoseFa/nordic-split-zmk))
+> The software source code files are in a different repo ([NoseFa/nordic-split-zmk](https://github.com/NoseFa/nordic-split-zmk))
 
 The keyboard is running ZMK which is the standard software used for wireless diy custom keyboards. Here is the [official docs for ZMK](https://zmk.dev/docs/features/split-keyboards). You might want to read this if you want to know more. I will still provide some instructions and info here as well as my own config files in the [the software repo](https://github.com/NoseFa/nordic-split-zmk) but if you need something else you should check the ZMK page.
 
