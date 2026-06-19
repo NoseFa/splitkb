@@ -8,7 +8,7 @@ If you want to view to more specific config files and builds you can view [the s
 
 ## Installation
 
-For installing you can grab the .uf2 files from the software folder. You can also edit the config files if you want to modify them and make your own .uf2 files. You can enter the flashing menu of the ProMicro by shorting the Rst(Reset) and GND pins for 0,5s. Then you can connect to your computer and the controller should show up as a Nice!Nano media. You can drop in the .uf2 file on it and it should install it. You have seperate firmware files for each side (LeftSide.uf2 and RightSide.uf2) check that you have the right one before you flash it. There are different layouts so this is important.
+For installing you can grab the .uf2 files from the software folder. You can also edit the config files if you want to modify them and make your own .uf2 files. You can enter the flashing mode of the ProMicro by shorting the Rst(Reset) and GND(Ground) pins for 0,5s while connecting to your computer and the controller should show up as a Nice!Nano storgae media device. You can drag and drop in the .uf2 file on it and it should install it. You have seperate firmware files for each side (LeftSide.uf2 and RightSide.uf2) check that you have the correct one before you flash it. The sides have different layouts and settings so this is important. After flashing them they should boot into the ZMK firmware and they should link together automatically through their paring process. See [the ZMK troubleshooting guide](https://zmk.dev/docs/troubleshooting/connection-issues). The keyboard should also become visible as a bluetooth device you can connect to. Keep in mind that only one device will show up and not both halves seperately.
 
 ## Keymaps
 
