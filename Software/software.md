@@ -8,7 +8,7 @@ If you want to view to more specific config files and builds you can view [the s
 
 ## Installation
 
-For installing you can grab the .uf2 files from the software folder. You can also edit the config files if you want to modify them and make your own .uf2 files. You can enter the flashing menu of the ProMicro by shorting the Rst(Reset) and GND pins for 0,5s. Then you can connect to your computer and the controller should show up as a Nice!Nano media. You can drop in the .uf2 file on it and it should install it. You have seperate firmware files for each side (LeftSide.uf2 and RightSide.uf2) check that you have the right one before you flash it. There are different layouts so this is important.
+For installing you can grab the .uf2 files from the software folder. You can also edit the config files if you want to modify them and make your own .uf2 files. You can enter the flashing menu of the ProMicro by shorting the Rst(Reset) and GND pins for 0,5s. Then you can connect to your computer and the controller should show up as a Nice!Nano media. You can drop in the .uf2 file on it and it should install it. You have seperate firmware files for each side ([`nordic1_left-nice_nano_v2-zmk.uf2`](./firmware/nordic1_left-nice_nano_v2-zmk.uf2) and [`nordic1_right-nice_nano_v2-zmk.uf2`](./firmware/nordic1_right-nice_nano_v2-zmk.uf2)) check that you have the right one before you flash it. There are different layouts so this is important.
 
 ## Keymaps
 
