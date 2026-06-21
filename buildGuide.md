@@ -10,7 +10,7 @@ When buying the microcontroller you should buy a NRF52840 based dev board just c
 
 For the case you can either 3D print it yourself or you can use a manufacturer like [JLC3DP](https://jlc3dp.com/) to print the case. If you use [JLC3DP](https://jlc3dp.com/) and order the PCBs from [JLCPCB](https://jlcpcb.com/) you can save on total shipping costs. Using a printing service isn't listed in the BOM because I have a 3D printer that I can use for this. Remember to order both sides. So in total you should have different 4 parts to print (both sides have a case and top plate). You can find the files in the [3D files folder](./3dFiles/). The [Full project folder](./3dFiles/FullProject/) has the full 3D project inc. PCB, switches etc. It's available in .step and .f3z formats. There is also a [3d Print folder](./3dFiles/3dPrint/). It has ready to print files in .step format. All parts can be printed in place without supports.
 
-For keycaps you can either 3d print them or follow the [BOM](BOM.csv) where you can find the keycaps I bought from aliexpress and the keycaps weren't that expensive especially compared to the amount of work I would need to sand and post process them and buying filament. If you don't care as much about the finish you can find keycaps on printables like the [KEA choc keycaps](https://github.com/klouderone/KEA-choc-keycaps) by [Klouderone](https://github.com/klouderone) and [Ross Douglas](https://github.com/rdougla3) ([License for their project](https://github.com/klouderone/KEA-choc-keycaps/blob/main/CC%20BY-NC%204.0.txt)). The anti-slip feet aren't mandatory but the case does have ready made spots for them and they aren't too expensive. So there is some money to save if you print the keycaps etc.
+For keycaps you can either 3d print them or follow the [BOM](BOM.csv) where you can find the keycaps I bought from aliexpress and the keycaps weren't that expensive especially compared to the amount of work I would need to sand and post process them and buying filament. If you don't care as much about the finish you can find keycaps on printables like the [KEA choc keycaps](https://github.com/klouderone/KEA-choc-keycaps) by [Klouderone](https://github.com/klouderone) and [Ross Douglas](https://github.com/rdougla3) ([License for their project](https://github.com/klouderone/KEA-choc-keycaps/blob/main/CC%20BY-NC%204.0.txt)). The anti-slip feet aren't mandatory but the case does have ready made spots for them and they aren't too expensive. So there is some money to save if you print the keycaps etc. The PCB was made so that the keys are upside down so just check that the keycaps you use are reversable.
 
 For the other components like switches etc. you can look at [Bill of Materials](./BOM.csv). For the switches you can pick if you want clicky or linear etc. but the PCB is designed for choc v1 switches specifically.
 
@@ -40,7 +40,11 @@ If everything works you should move onto installing the battery to the PCB. You 
 
 ## The switches
 
-You should be able to just push in every switch. The hotswap sockets make this possible and there is no need to solder anything on the switches themselves. After the switches you should once again plug in both boards and check the firmware. When powered on the sides should sync together automatically. You should see only one keyboard in your bluetooth paring. Try to connect to it and test the keys. If everything works as intended you can install the keycaps and then your done.
+You should be able to just push in every switch. Keep in mind that the switches go on upside down. The hotswap sockets make this possible and there is no need to solder anything on the switches themselves. Check this render of one of the switches attached if you need help.
+
+![Switches installed](./Media/SwitchInstall.png)
+
+After the switches you should once again plug in both boards and check the firmware. When powered on the sides should sync together automatically. You should see only one keyboard in your bluetooth paring. Try to connect to it and test the keys. If everything works as intended you can install the keycaps and then your done. For the keycaps you can also just push them onto the switches.
 
 ## Software install
 
