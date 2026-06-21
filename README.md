@@ -76,6 +76,12 @@ Here is also the schematic which is split into three different pages. One for ea
 
 For ordering the PCB I used JLCPCB. You can find the gerber files as a zip in the [Production files folder](./KICAD/ProductionFiles/NordicSplitGerber.zip)
 
+## 3D files
+
+3d Files are seperated into 2 folders. Full project which has the .fz3 and .step versions of the whole 3D project. The PCB was exported when I finished the the edge cuts so some holes next to the micro controller might be different. I didn't include the microcontroller or the SMD diodes in the 3d project but I did check that they fit.
+
+The 3
+
 ## Zine Page
 
 ![Zine Page](./Media/ZinePage.png)
