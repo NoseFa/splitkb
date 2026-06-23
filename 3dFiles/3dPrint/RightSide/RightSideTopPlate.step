@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'RightSideTopPlate.step',
-/* time_stamp */ '2026-06-17T20:07:48+03:00',
+/* time_stamp */ '2026-06-23T12:01:11+03:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -8853,17 +8853,17 @@ SOLID_ANGLE_UNIT()
 #8777=PRODUCT_DEFINITION_SHAPE('',$,#8780);
 #8778=SHAPE_REPRESENTATION('',(#5492),#8770);
 #8779=PRODUCT_DEFINITION_CONTEXT('part definition',#8784,'design');
-#8780=PRODUCT_DEFINITION('RightSideSplitKb','RightSideSplitKb v20',#8781,
+#8780=PRODUCT_DEFINITION('RightSideSplitKb','RightSideSplitKb v25',#8781,
 #8779);
 #8781=PRODUCT_DEFINITION_FORMATION('',$,#8786);
-#8782=PRODUCT_RELATED_PRODUCT_CATEGORY('RightSideSplitKb v20',
-'RightSideSplitKb v20',(#8786));
+#8782=PRODUCT_RELATED_PRODUCT_CATEGORY('RightSideSplitKb v25',
+'RightSideSplitKb v25',(#8786));
 #8783=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#8784);
 #8784=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #8785=PRODUCT_CONTEXT('part definition',#8784,'mechanical');
-#8786=PRODUCT('RightSideSplitKb','RightSideSplitKb v20',$,(#8785));
+#8786=PRODUCT('RightSideSplitKb','RightSideSplitKb v25',$,(#8785));
 #8787=PRESENTATION_STYLE_ASSIGNMENT((#8791));
 #8788=PRESENTATION_STYLE_ASSIGNMENT((#8792));
 #8789=PRESENTATION_STYLE_ASSIGNMENT((#8793));
