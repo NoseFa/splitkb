@@ -80,7 +80,7 @@ For ordering the PCB I used JLCPCB. You can find the gerber files as a zip in th
 
 3d Files are seperated into 2 folders. Full project which has the .fz3 and .step versions of the whole 3D project. The PCB was exported when I finished the the edge cuts so some holes next to the micro controller might be different. I didn't include the microcontroller or the SMD diodes in the 3d project but I did check that they fit.
 
-The 3
+The 3d files for the switches in the Fusion project are from [printables](https://www.printables.com/model/716753-kaliah-choc-v1-v2-dummy/files). They are made by [cobypear](https://www.printables.com/@cobypear_1543945). They are originally from the same library as I used in kicad which is the [kiswitch library](https://github.com/kiswitch/kiswitch/tree/main/library/3dmodels/3d-library.3dshapes). You can find the original files from the link.
 
 ## Zine Page
 
